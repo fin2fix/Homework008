@@ -63,6 +63,6 @@ int[,] SortItemInRowsArray(int[,] array)
 int[,] matrix = InitRandomMatrix();
 PrintMatrix(matrix);
 Console.WriteLine();
-Console.WriteLine("Новая матрица с отсортированными строками по убыванию значений");
+Console.WriteLine("Матрица с отсортированными строками по убыванию значений");
 int[,] newMatrix = SortItemInRowsArray(matrix);
 PrintMatrix(newMatrix);
